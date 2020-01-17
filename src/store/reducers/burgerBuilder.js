@@ -1,6 +1,7 @@
 /* eslint-disable */
+import { updateObject } from "./../../shared/utility";
+
 import * as actionTypes from "../actions/actionTypes";
-import { updateObject } from "../utility";
 
 const initialState = {
   ingredients: null,
