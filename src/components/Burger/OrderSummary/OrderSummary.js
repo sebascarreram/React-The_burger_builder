@@ -6,10 +6,10 @@ class OrderSummary extends Component {
   //
   // This could be a functional component, doesn't have to be a class-based
   //
-  componentDidUpdate() {
-    console.log("[ OrderSummary.js] componentDidUpdate");
-    // console.log("[ OrderSummary.js] componentWillUpdate");
-  }
+  // componentDidUpdate() {
+  //   console.log("[ OrderSummary.js] componentDidUpdate");
+  //   // console.log("[ OrderSummary.js] componentWillUpdate");
+  // }
 
   render() {
     const ingredientSummary = Object.keys(this.props.ingredients).map(igKey => {
